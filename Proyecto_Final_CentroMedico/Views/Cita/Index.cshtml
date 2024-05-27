@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="~/js/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Estilos generales -->
+    <link rel="stylesheet" href="~/css/Citas.css">
+    <link rel="stylesheet" href="~/css/Index.css" />
+
+</head>
+
+<body>
+    <!-- banner -->
+    <section class="banner_citas">
+        <div class="carousel-inner-citas">
+            <div class="container-fluid">
+                <div class="col-md-12">
+                    <div class="text-bg-citas">
+                        <h1>Agendar Tu Cita</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- final banner -->
+    <!-- servicios -->
+    <div id="calendario" class="calendario">
+        <div class="container">
+            <form method="POST" name="modulos_add">
+                <div class="row">
+
+                    <div class="col-md-6 mt-5">
+
+
+                        <div class="form-group mb-2">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="form-group mb-2">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" name="correo" required>
+                        </div>
+
+                        <div class="form-group mb-2">
+                            <label for="telefono">Número de Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                        </div>
+
+                        <div class="form-group mb-2">
+                            <label for="motivo">Motivo de la Cita</label>
+                            <textarea class="form-control" id="motivo" name="motivo" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="horarios">Seleccionar Horario</label>
+                            <select class="form-control" id="horarios" name="horarios" required>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                        <div class="text-fecha-hora text-center mt-3 mb-3">
+                            <h2>
+                                Fecha
+                            </h2>
+                        </div>
+                        <!-- CALENDARIO -->
+                        <div class="elegant-calencar d-md-flex">
+                            <div class="wrap-header d-flex align-items-center img" style="background-image: url(../mains.png);">
+                                <p id="reset">Hoy</p>
+                                <div id="header" class="p-0">
+
+                                    <div class="head-info">
+                                        <div class="head-month"></div>
+                                        <div class="head-day"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="calendar-wrap">
+                                <div class="w-100 button-wrap">
+                                    <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div>
+                                    <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div>
+                                </div>
+                                <table id="calendar">
+                                    <thead>
+                                        <tr>
+                                            <th>Dom</th>
+                                            <th>Lun</th>
+                                            <th>Mar</th>
+                                            <th>Mie</th>
+                                            <th>Jue</th>
+                                            <th>Vie</th>
+                                            <th>Sab</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="d-flex mt-2 col-md-6">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                        <circle cx="20" cy="20" r="20" fill="#0F4C5C" />
+                                    </svg>
+                                    <p style="color: #000;" class="ms-2 mt-2">
+                                        Este color define el dia de hoy!
+                                    </p>
+                                </div>
+
+
+                                <div class="d-flex mt-2 col-md-6">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                                        <circle cx="20" cy="20" r="20" fill="#C7EEF3" />
+                                    </svg>
+                                    <p style="color: #000" class="ms-2 mt-2">
+                                        Este color es su hora de cita!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- FIN DEL CALENDARIO -->
+                </div>
+                <div class="card-footer">
+                    <input type="submit" class="btn" value="Agregar Cita" id="btnRegistrarCita" style="background-color: #202126; color: #F7F4ED;"></input>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/popper.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            // Inicializa Select2 Elements
+            $('.select2').select2({
+                passive: true
+            });
+        });
+    </script>
+
+    <script src="~/js/Citas.js"></script>
+
+</body>
+
+</html>

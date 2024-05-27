@@ -1,0 +1,45 @@
+﻿body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+.barra-lateral {
+    background-color: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height:100vh;
+}
+
+    .barra-lateral a {
+        color: #fff;
+        background-color: #262a34;
+    }
+
+    .barra-lateral .logo {
+        background-color: #0275db;
+    }
+
+        .barra-lateral .logo h2 {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+    .barra-lateral .menu a {
+        display: block;
+        padding: 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+        .barra-lateral .menu a:hover {
+            background: #35ae6b;
+        }
+
+    .barra-lateral .menu a svg {
+        margin-left: 10px;      
+    }
+

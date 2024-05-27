@@ -1,0 +1,50 @@
+﻿
+@{
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div>
+                <h1 class="mt-4" style="text-align: center;">Crear Usuario</h1>
+                <hr />
+            </div>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Primer Apellido</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Segundo Apellido</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Rol</label>
+                    <select style="width: 100%;height: 40px;">
+                        <option value="value1" selected>Administrador</option>
+                        <option value="value2">Médico</option>
+                        <option value="value2">Secretario</option>
+                        <option value="value3">Paciente</option>
+                    </select>
+
+
+                </div>
+                <button type="submit" class="btn btn-primary" style="background-color: #0F4C5C;margin: 4px 2px;"
+                        asp-action="Index">
+                    Agregar
+                </button>
+            </form>
+
+            <div>
+                <a href="Usuarios.html" class="btn btn-primary"
+                   style="background-color: #0F4C5C;margin: 4px 2px;">Volver</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
