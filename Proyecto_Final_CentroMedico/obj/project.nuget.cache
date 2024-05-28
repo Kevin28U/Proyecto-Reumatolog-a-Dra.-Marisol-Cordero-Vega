@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NVICeb3MHV9w19r9IpEIGBRpjhOGk0PETr+U4hzC34EDhvc9nef0HhcbBQYp7Bc1O6L2n+0EvlKx8pwYhoLwaA==",
+  "dgSpecHash": "4o7IDNB8rKORsWmexO5WITICJBqlWDuoceNmT0aucYUz3vTiWMdHMsJtpvtGtHKoihzZ49B0e3dNEBnjKje9ag==",
   "success": true,
-  "projectFilePath": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+  "projectFilePath": "C:\\CLINICA_MEDICA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
