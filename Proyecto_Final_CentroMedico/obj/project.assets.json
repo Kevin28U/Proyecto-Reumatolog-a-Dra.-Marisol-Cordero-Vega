@@ -2232,11 +2232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+      "projectUniqueName": "C:\\CLINICA_MEDICA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
       "projectName": "Proyecto_Final_CentroMedico",
-      "projectPath": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+      "projectPath": "C:\\CLINICA_MEDICA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto_Final_CentroMedico\\obj\\",
+      "outputPath": "C:\\CLINICA_MEDICA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
