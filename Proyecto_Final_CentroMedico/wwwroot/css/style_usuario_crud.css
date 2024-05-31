@@ -1,0 +1,49 @@
+﻿body {
+    background: #f0f2f5 url('https://png.pngtree.com/background/20210717/original/pngtree-blue-hexagonal-medicine-background-picture-image_1428439.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+.card-header {
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #1d8cf8;
+    color: white; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #1d8cf8, #3358f4);
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s ease-in-out;
+    font-size: 1rem; 
+    padding: 10px 20px; 
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(45deg, #3358f4, #1d8cf8);
+    }
+
+label {
+    font-weight: bold;
+}
+
