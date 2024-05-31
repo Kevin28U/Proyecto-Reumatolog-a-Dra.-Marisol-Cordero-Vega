@@ -10,7 +10,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(img/fondo.jpg);
     background-size: cover;
 }
 
@@ -217,14 +216,6 @@ body {
         color: #63acb7;
         cursor: pointer;
         transition: background-color .3s ease;
-        color: #c7eef3;
-        color: #f8f8f8;
-        color: #333;
-        color: #555;
-        color: #9191bd;
-        color: #a7a7a7;
-        color: #63acb7;
-        color: #e5f3f0;
     }
 
         .info-childs input:hover {
