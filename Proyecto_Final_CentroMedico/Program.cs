@@ -1,7 +1,23 @@
+using DAL;
+using Microsoft.EntityFrameworkCore;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+try
+{
+    builder.Services.AddDbContext<ClinicaDbContext>(options => options.UseSqlServer("name=Conn"));
+    Console.WriteLine("Conexión a la base de datos establecida con éxito.");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Error al conectar a la base de datos: {ex.Message}");
+}
+
+
 
 var app = builder.Build();
 
