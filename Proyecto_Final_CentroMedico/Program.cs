@@ -1,8 +1,10 @@
 using DAL;
 using Microsoft.EntityFrameworkCore;
 using System;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("Conn") ?? throw new InvalidOperationException("Connection string 'Conn' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -10,12 +12,17 @@ builder.Services.AddControllersWithViews();
 try
 {
     builder.Services.AddDbContext<ClinicaDbContext>(options => options.UseSqlServer("name=Conn"));
-    Console.WriteLine("Conexión a la base de datos establecida con éxito.");
+    builder.Services.AddDbContext<AuthContext>(options => options.UseSqlServer("name=Conn"));
+    Console.WriteLine("Conexiï¿½n a la base de datos establecida con ï¿½xito.");
 }
 catch (Exception ex)
 {
     Console.WriteLine($"Error al conectar a la base de datos: {ex.Message}");
 }
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<AuthContext>()
+    .AddDefaultUI();
 
 
 
