@@ -17,6 +17,8 @@ namespace DAL
         [Required(ErrorMessage = "Su apellido es requerido")]
         [MaxLength(100)]
         public string Apellido { get; set; }
+
+        public string Correo { get; set; }
         public bool Estado { get; set; }
         public List<string> Roles { get; set; }
     }
