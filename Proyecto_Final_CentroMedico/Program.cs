@@ -20,14 +20,6 @@ catch (Exception ex)
     Console.WriteLine($"Error al conectar a la base de datos: {ex.Message}");
 }
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddEntityFrameworkStores<AuthContext>()
-    .AddDefaultUI();
-
-builder.Services.AddRazorPages();
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -49,6 +41,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapRazorPages();
 
 app.Run();

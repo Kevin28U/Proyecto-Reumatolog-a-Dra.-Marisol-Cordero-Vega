@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class AuthContext : IdentityDbContext<ApplicationUser>
+    public class AuthContext : IdentityDbContext
     {
         public AuthContext()
         {
