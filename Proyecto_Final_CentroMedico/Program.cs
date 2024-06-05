@@ -1,7 +1,8 @@
-using DAL;
+
 using Microsoft.EntityFrameworkCore;
 using System;
 using Microsoft.AspNetCore.Identity;
+using Proyecto_Final_CentroMedico;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Conn") ?? throw new InvalidOperationException("Connection string 'Conn' not found.");
@@ -11,8 +12,7 @@ builder.Services.AddControllersWithViews();
 
 try
 {
-    builder.Services.AddDbContext<ClinicaDbContext>(options => options.UseSqlServer("name=Conn"));
-    builder.Services.AddDbContext<AuthContext>(options => options.UseSqlServer("name=Conn"));
+    builder.Services.AddDbContext<ClinicaReumatologiaContext>(options => options.UseSqlServer("name=Conn"));
     Console.WriteLine("Conexi�n a la base de datos establecida con �xito.");
 }
 catch (Exception ex)

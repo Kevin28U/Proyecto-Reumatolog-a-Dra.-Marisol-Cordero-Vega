@@ -471,31 +471,31 @@ public partial class ClinicaReumatologiaContext : DbContext
 
     public List<Ocupacion> obtenerOcupaciones() {
 
-        return Ocupacions.FromSqlRaw("exec SP_OBTENER_OCUPACION").ToList();
+        return Ocupacions.FromSqlRaw("exec SP_LISTAR_OCUPACION").ToList();
     }
 
     public List<Sexo> obtenerSexos()
     {
 
-        return Sexos.FromSqlRaw("exec SP_OBTENER_SEXO").ToList();
+        return Sexos.FromSqlRaw("exec SP_LISTAR_SEXO").ToList();
     }
 
     public List<Provincium> obtenerProvincia()
     {
 
-        return Provincia.FromSqlRaw("exec SP_OBTENER_PROVINCIA").ToList();
+        return Provincia.FromSqlRaw("exec SP_LISTAR_PROVINCIA").ToList();
     }
 
     public List<Canton> obtenerCanton()
     {
 
-        return Cantons.FromSqlRaw("exec SP_OBTENER_CANTON").ToList();
+        return Cantons.FromSqlRaw("exec SP_LISTAR_CANTON").ToList();
     }
 
     public List<Distrito> obtenerDistrito()
     {
 
-        return Distritos.FromSqlRaw("exec SP_OBTENER_DISTRITO").ToList();
+        return Distritos.FromSqlRaw("exec SP_LISTAR_DISTRITO").ToList();
     }
 
 

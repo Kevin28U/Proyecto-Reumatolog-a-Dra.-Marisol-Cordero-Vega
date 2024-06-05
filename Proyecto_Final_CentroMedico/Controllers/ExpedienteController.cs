@@ -3,38 +3,40 @@
 
 namespace Proyecto_Final_CentroMedico.Controllers
 {
-	public class ExpedienteController : Controller
-	{
+    public class ExpedienteController : Controller
+    {
 
-		private readonly ClinicaReumatologiaContext _context;
+        private readonly ClinicaReumatologiaContext _context;
 
-		public ExpedienteController(ClinicaReumatologiaContext context) {
-			_context = context;
+        public ExpedienteController(ClinicaReumatologiaContext context)
+        {
+            _context = context;
 
         }
         public IActionResult Index()
-		{
-			return View();
-		}
+        {
+            return View();
+        }
 
         public IActionResult Dashboard()
         {
             return View();
         }
 
-		public IActionResult Detalle()
-		{
-			return View();
-		}
+        public IActionResult Detalle()
+        {
+            return View();
+        }
 
         public ActionResult Editar()
         {
             return View();
         }
 
-		public ActionResult Crear() {
-			var provincias = _context.obtenerProvincia();
-			ViewData["Provincias"] = new Microsoft.AspNetCore.Mvc.Rendering.SelectList((System.Collections.IEnumerable)provincias,"IdProvincia","NombreProvincia");
+        public ActionResult Crear()
+        {
+            var provincias = _context.obtenerProvincia();
+            ViewData["Provincias"] = new Microsoft.AspNetCore.Mvc.Rendering.SelectList((System.Collections.IEnumerable)provincias, "IdProvincia", "NombreProvincia");
             var cantones = _context.Cantons.ToList();
             ViewData["Cantones"] = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(cantones, "IdCanton", "NombreProvincia");
             var sexos = _context.Sexos.ToList();
@@ -44,7 +46,7 @@ namespace Proyecto_Final_CentroMedico.Controllers
 
             return View();
 
-		}
+        }
 
     }
 
