@@ -1,24 +1,24 @@
 using DAL;
 using Microsoft.EntityFrameworkCore;
-using Proyecto_Final_CentroMedico;
 using System;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("Conn") ?? throw new InvalidOperationException("Connection string 'Conn' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 try
 {
-    builder.Services.AddDbContext<ClinicaReumatologiaContext>(options => options.UseSqlServer("name=Conn"));
-    Console.WriteLine("Conexión a la base de datos establecida con éxito.");
+    builder.Services.AddDbContext<ClinicaDbContext>(options => options.UseSqlServer("name=Conn"));
+    builder.Services.AddDbContext<AuthContext>(options => options.UseSqlServer("name=Conn"));
+    Console.WriteLine("Conexiï¿½n a la base de datos establecida con ï¿½xito.");
 }
 catch (Exception ex)
 {
     Console.WriteLine($"Error al conectar a la base de datos: {ex.Message}");
 }
-
-
 
 var app = builder.Build();
 
@@ -40,5 +40,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();
