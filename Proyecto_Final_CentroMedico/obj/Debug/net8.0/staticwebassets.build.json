@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "o+WpXD21+iYY83dS5bEqnjOUoiJG6KhZWhapLEy5RP4=",
+=======
   "Hash": "VwGJRf3ebBr1tP4uwzsLR28D5EROP2Vh6yYDEWOP5as=",
+>>>>>>> main
   "Source": "Proyecto_Final_CentroMedico",
   "BasePath": "_content/Proyecto_Final_CentroMedico",
   "Mode": "Default",
@@ -10,13 +14,16 @@
     {
       "Name": "Proyecto_Final_CentroMedico\\wwwroot",
       "Source": "Proyecto_Final_CentroMedico",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Proyecto_Final_CentroMedico.styles.css",
+=======
       "Identity": "C:\\Users\\fabia\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.6\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
@@ -1196,9 +1203,10 @@
     },
     {
       "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Proyecto_Final_CentroMedico.styles.css",
+>>>>>>> main
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "Proyecto_Final_CentroMedico.styles.css",
       "AssetKind": "All",
@@ -1211,13 +1219,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Proyecto_Final_CentroMedico.styles.css"
+      "OriginalItemSpec": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Proyecto_Final_CentroMedico.styles.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Proyecto_Final_CentroMedico.bundle.scp.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Proyecto_Final_CentroMedico.bundle.scp.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "Proyecto_Final_CentroMedico.bundle.scp.css",
       "AssetKind": "All",
@@ -1230,13 +1238,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Proyecto_Final_CentroMedico.bundle.scp.css"
+      "OriginalItemSpec": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Proyecto_Final_CentroMedico.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1252,10 +1260,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\Citas.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\Citas.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/Citas.css",
       "AssetKind": "All",
@@ -1271,10 +1279,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Citas.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\estilo_SeccionInformativa_1.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\estilo_SeccionInformativa_1.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/estilo_SeccionInformativa_1.css",
       "AssetKind": "All",
@@ -1290,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\css\\estilo_SeccionInformativa_1.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\estilo_SeccionInformativa_2.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\estilo_SeccionInformativa_2.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/estilo_SeccionInformativa_2.css",
       "AssetKind": "All",
@@ -1309,10 +1317,10 @@
       "OriginalItemSpec": "wwwroot\\css\\estilo_SeccionInformativa_2.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\Index.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\Index.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/Index.css",
       "AssetKind": "All",
@@ -1328,10 +1336,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\Login.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -1347,10 +1355,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\panel.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\panel.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/panel.css",
       "AssetKind": "All",
@@ -1366,10 +1374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\panel.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\select2.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\select2.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/select2.min.css",
       "AssetKind": "All",
@@ -1385,10 +1393,10 @@
       "OriginalItemSpec": "wwwroot\\css\\select2.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\site.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\site.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1404,10 +1412,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_detalles.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_detalles.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/style_detalles.css",
       "AssetKind": "All",
@@ -1423,10 +1431,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_detalles.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_expedientes_crud.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_expedientes_crud.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/style_expedientes_crud.css",
       "AssetKind": "All",
@@ -1442,10 +1450,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_expedientes_crud.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_expedientes_index.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_expedientes_index.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/style_expedientes_index.css",
       "AssetKind": "All",
@@ -1461,10 +1469,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_expedientes_index.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_rol_crud.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_rol_crud.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/style_rol_crud.css",
       "AssetKind": "All",
@@ -1480,10 +1488,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_rol_crud.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_usuario_crud.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_usuario_crud.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/style_usuario_crud.css",
       "AssetKind": "All",
@@ -1499,10 +1507,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_usuario_crud.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_usuario_index.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_usuario_index.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "css/style_usuario_index.css",
       "AssetKind": "All",
@@ -1518,10 +1526,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style_usuario_index.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\favicon.ico",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\favicon.ico",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1537,10 +1545,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\fondo.jpg",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\fondo.jpg",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "img/fondo.jpg",
       "AssetKind": "All",
@@ -1556,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fondo.jpg"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\Imagenparareseas.jpeg",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\Imagenparareseas.jpeg",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "img/Imagenparareseas.jpeg",
       "AssetKind": "All",
@@ -1575,10 +1583,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Imagenparareseas.jpeg"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\La-nouveaute-de-Waze-vous-convaincra-darreter-dutiliser-Google-Maps.jpg",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\La-nouveaute-de-Waze-vous-convaincra-darreter-dutiliser-Google-Maps.jpg",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "img/La-nouveaute-de-Waze-vous-convaincra-darreter-dutiliser-Google-Maps.jpg",
       "AssetKind": "All",
@@ -1594,10 +1602,10 @@
       "OriginalItemSpec": "wwwroot\\img\\La-nouveaute-de-Waze-vous-convaincra-darreter-dutiliser-Google-Maps.jpg"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\mains.png",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\mains.png",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "img/mains.png",
       "AssetKind": "All",
@@ -1613,10 +1621,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mains.png"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\pexels-photo-305567.jpeg",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\pexels-photo-305567.jpeg",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "img/pexels-photo-305567.jpeg",
       "AssetKind": "All",
@@ -1632,10 +1640,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pexels-photo-305567.jpeg"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\pexels-photo-3825502.jpeg",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\img\\pexels-photo-3825502.jpeg",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "img/pexels-photo-3825502.jpeg",
       "AssetKind": "All",
@@ -1651,10 +1659,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pexels-photo-3825502.jpeg"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1670,10 +1678,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\Citas.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\Citas.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "js/Citas.js",
       "AssetKind": "All",
@@ -1689,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Citas.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\jquery.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\jquery.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -1708,10 +1716,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\Login.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\Login.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "js/Login.js",
       "AssetKind": "All",
@@ -1727,10 +1735,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\popper.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\popper.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "js/popper.js",
       "AssetKind": "All",
@@ -1746,10 +1754,10 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\site.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\js\\site.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1765,10 +1773,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1784,10 +1792,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1803,10 +1811,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1822,10 +1830,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1841,10 +1849,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1860,10 +1868,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1879,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1898,10 +1906,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +1925,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1936,10 +1944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1955,10 +1963,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1974,10 +1982,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +2001,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2012,10 +2020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2031,10 +2039,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2050,10 +2058,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2088,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2107,10 +2115,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2126,10 +2134,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2164,10 +2172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2183,10 +2191,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2202,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2221,10 +2229,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2240,10 +2248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2259,10 +2267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2278,10 +2286,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2297,10 +2305,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2316,10 +2324,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2335,10 +2343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2354,10 +2362,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2373,10 +2381,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2392,10 +2400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2411,10 +2419,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2430,10 +2438,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2449,10 +2457,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2468,10 +2476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2487,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2506,10 +2514,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2525,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2544,10 +2552,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2563,10 +2571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2582,10 +2590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2601,10 +2609,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2620,10 +2628,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2639,10 +2647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2658,10 +2666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2677,10 +2685,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2696,10 +2704,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2715,10 +2723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2734,10 +2742,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2753,10 +2761,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2772,10 +2780,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2791,10 +2799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2810,10 +2818,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2829,10 +2837,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Proyecto_Final_CentroMedico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "ContentRoot": "C:\\PROYECTO_FINAL_CARRERA\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
       "BasePath": "_content/Proyecto_Final_CentroMedico",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

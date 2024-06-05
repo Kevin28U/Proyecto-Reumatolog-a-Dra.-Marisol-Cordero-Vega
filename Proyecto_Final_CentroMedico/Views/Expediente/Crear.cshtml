@@ -16,6 +16,19 @@
                 <div class="card-body">
                     <form>
                         <div class="form-row">
+                            <h4>Información del Paciente</h4>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="cedula">Cedula</label>
+                                <input type="text" class="form-control" id="cedula" placeholder="Ingrese el número de cédula">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="fechaNacimiento">Fecha Nacimiento</label>
+                                <input type="date" class="form-control" id="fechaNacimiento" placeholder="Ingrese la fecha de nacimiento">
+                            </div>
+                        </div>
+                        <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="nombre">Nombre</label>
                                 <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
@@ -32,22 +45,18 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="sexo">Sexo</label>
-                                <select class="form-control" id="sexo">
-                                    <option value="">Seleccione su sexo</option>
-                                    <option value="masculino">Masculino</option>
-                                    <option value="femenino">Femenino</option>
+                                <select class="form-control" id="sexo" asp-items="ViewBag.Sexos">
+                                    <option value="">Seleccione el sexo</option>
+
                                 </select>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="estadoCivil">Estado Civil</label>
-                                <select class="form-control" id="estadoCivil">
-                                    <option value="">Seleccione su estado civil</option>
-                                    <option value="soltero">Soltero/a</option>
-                                    <option value="casado">Casado/a</option>
-                                    <option value="divorciado">Divorciado/a</option>
-                                    <option value="viudo">Viudo/a</option>
+                                <label for="ocupacion">Ocupación</label>
+                                <select class="form-control" id="ocupacion" asp-items="ViewBag.Ocupaciones">
+                                    <option value="">Seleccione la ocupación</option>
+
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
@@ -57,28 +66,17 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="ocupacion">Ocupación</label>
-                                <input type="text" class="form-control" id="ocupacion" placeholder="Ingrese su ocupación">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="provincia">Provincia</label>
-                                <select class="form-control" id="provincia">
-                                    <option value="">Seleccione su provincia</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
                                 <label for="canton">Cantón</label>
-                                <select class="form-control" id="canton">
+                                <select class="form-control" id="canton" asp-items="ViewBag.Cantones">
                                     <option value="">Seleccione su cantón</option>
 
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="distrito">Distrito</label>
-                                <select class="form-control" id="distrito">
-                                    <option value="">Seleccione su distrito</option>
+                                <label for="provincia">Provincia</label>
+                                <select class="form-control" id="provincia" asp-items="ViewBag.Provincias">
+                                    <option value="">Seleccione su provincia</option>
+
                                 </select>
                             </div>
                         </div>
@@ -86,6 +84,41 @@
                             <label for="direccion">Dirección</label>
                             <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
                         </div>
+
+                        <div class="form-row">
+                            <h4>Antecedentes del Paciente</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="AGO">Antecedentes Gineco-Obstetricos</label>
+                            <textarea rows="8" class="form-control" id="AGO">
+
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="APnoP">Antecedentes Personales No Patológicos</label>
+                            <textarea rows="8" class="form-control" id="APnoP">
+
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="APP">Antecedentes Personales Patológicos</label>
+                            <textarea rows="8" class="form-control" id="APP">
+
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="AHF">Antecedentes Heredo-familiares</label>
+                            <textarea rows="8" class="form-control" id="AHF">
+
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="AQTx">Antecedentes Quirúrgicos y Traumáticos </label>
+                            <textarea rows="8" class="form-control" id="AQTx">
+
+                            </textarea>
+                        </div>
+
                         <button type="submit" class="btn btn-primary btn-block rounded-pill">Guardar</button>
                     </form>
                 </div>

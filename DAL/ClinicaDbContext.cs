@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 
 namespace DAL
 {
     public class ClinicaDbContext : DbContext
     {
+
+
         public ClinicaDbContext()
         {
 
