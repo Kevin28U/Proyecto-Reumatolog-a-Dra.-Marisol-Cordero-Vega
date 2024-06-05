@@ -1,5 +1,6 @@
 using DAL;
 using Microsoft.EntityFrameworkCore;
+using Proyecto_Final_CentroMedico;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,7 @@ builder.Services.AddControllersWithViews();
 
 try
 {
-    builder.Services.AddDbContext<ClinicaDbContext>(options => options.UseSqlServer("name=Conn"));
+    builder.Services.AddDbContext<ClinicaReumatologiaContext>(options => options.UseSqlServer("name=Conn"));
     Console.WriteLine("Conexión a la base de datos establecida con éxito.");
 }
 catch (Exception ex)
