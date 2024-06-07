@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\css\\style_rol_crud.css"
     },
     {
+      "Id": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_rol_index.css",
+      "PackagePath": "staticwebassets\\css\\style_rol_index.css"
+    },
+    {
       "Id": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_usuario_crud.css",
       "PackagePath": "staticwebassets\\css\\style_usuario_crud.css"
     },

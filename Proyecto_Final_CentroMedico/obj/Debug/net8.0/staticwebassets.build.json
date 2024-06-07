@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VwGJRf3ebBr1tP4uwzsLR28D5EROP2Vh6yYDEWOP5as=",
+  "Hash": "BmNkBC34dsdCuCvvJouRME7SH7TegaY5l2UFwCALNC8=",
   "Source": "Proyecto_Final_CentroMedico",
   "BasePath": "_content/Proyecto_Final_CentroMedico",
   "Mode": "Default",
@@ -1478,6 +1478,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style_rol_crud.css"
+    },
+    {
+      "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_rol_index.css",
+      "SourceId": "Proyecto_Final_CentroMedico",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\",
+      "BasePath": "_content/Proyecto_Final_CentroMedico",
+      "RelativePath": "css/style_rol_index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style_rol_index.css"
     },
     {
       "Identity": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_usuario_crud.css",

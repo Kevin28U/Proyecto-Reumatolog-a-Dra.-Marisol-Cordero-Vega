@@ -7,6 +7,13 @@
     margin: 0;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0B4750;
+}
+
 .card {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -17,13 +24,13 @@
     border-bottom: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #0B4750;
-    color: white;
+    background-color: #1d8cf8; 
+    color: white; 
     font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    font-size: 1.5rem; 
+    text-align: center; 
+    padding: 20px; 
+    margin-bottom: 20px; 
 }
 
 .form-control {
@@ -31,6 +38,7 @@
 }
 
 .btn-primary {
+    margin: 20px;
     background-color: #0B4750;
     /*background: linear-gradient(45deg, #1d8cf8, #3358f4);*/
     border: none;
@@ -47,3 +55,28 @@
 label {
     font-weight: bold;
 }
+
+/*.table {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}*/
+
+.table {
+    display: grid;
+    place-items: center;
+    width: 25%;
+    color: #E5F3F0; 
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+    .table td a{
+        color: #0B4750;
+    }
