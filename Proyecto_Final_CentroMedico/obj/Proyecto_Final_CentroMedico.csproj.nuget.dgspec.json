@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fabia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,21 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
         "projectName": "Proyecto_Final_CentroMedico",
-        "projectPath": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
-        "packagesPath": "C:\\Users\\fabia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fabia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,14 +103,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Diseño y Desarrollo\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj"
               }
             }
           }
@@ -113,6 +120,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -175,7 +187,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

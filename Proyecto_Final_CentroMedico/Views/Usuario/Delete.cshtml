@@ -1,0 +1,41 @@
+﻿@model Proyecto_Final_CentroMedico.Usuario
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="card border-primary mt-5 rounded-lg">
+                <div class="card-header">
+                    Eliminar Usuario
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">¿Estás seguro de que quieres eliminar este usuario?</h5>
+                    <p class="card-text">Eliminar este usuario eliminará toda la información asociada.</p>
+                    <dl class="row">
+                        <dt class="col-sm-4">ID de Usuario:</dt>
+                        <dd class="col-sm-8">@Model.IdUsuario</dd>
+                        <dt class="col-sm-4">Nombre:</dt>
+                        <dd class="col-sm-8">@Model.Nombre</dd>
+                        <dt class="col-sm-4">Primer Apellido:</dt>
+                        <dd class="col-sm-8">@Model.PrimerApellido</dd>
+                        <dt class="col-sm-4">Segundo Apellido:</dt>
+                        <dd class="col-sm-8">@Model.SegundoApellido</dd>
+                        <dt class="col-sm-4">Correo Electrónico:</dt>
+                        <dd class="col-sm-8">@Model.CorreoElectronico</dd>
+                        <dt class="col-sm-4">Nombre de Usuario:</dt>
+                        <dd class="col-sm-8">@Model.NombreUsuario</dd>
+                        <dt class="col-sm-4">Teléfono:</dt>
+                        <dd class="col-sm-8">@Model.Telefono</dd>
+                    </dl>
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="IdUsuario" />
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        <a href="~/Usuario/Index" class="btn btn-primary">Cancelar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
