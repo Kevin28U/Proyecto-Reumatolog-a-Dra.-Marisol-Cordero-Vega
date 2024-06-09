@@ -27,11 +27,6 @@ namespace Proyecto_Final_CentroMedico.Controllers
             return View();
         }
 
-        public IActionResult Login() {
-            ViewBag.ShowNavbar = false;
-            ViewBag.ShowFooter = false; // Mostrar el footer en esta pantalla
-            return View();
-        }
 
         public IActionResult Privacy()
         {
