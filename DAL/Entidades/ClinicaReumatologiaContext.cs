@@ -27,8 +27,6 @@ public partial class ClinicaReumatologiaContext : DbContext
 
     public virtual DbSet<Direccion> Direccions { get; set; }
 
-    public virtual DbSet<Distrito> Distritos { get; set; }
-
     public virtual DbSet<Expediente> Expedientes { get; set; }
 
     public virtual DbSet<Ocupacion> Ocupacions { get; set; }
@@ -167,7 +165,6 @@ public partial class ClinicaReumatologiaContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("DIRECCION");
             entity.Property(e => e.IdCanton).HasColumnName("ID_CANTON");
-            entity.Property(e => e.IdDistrito).HasColumnName("ID_DISTRITO");
             entity.Property(e => e.IdProvincia).HasColumnName("ID_PROVINCIA");
 
             entity.HasOne(d => d.IdCantonNavigation).WithMany(p => p.Direccions)
@@ -175,34 +172,12 @@ public partial class ClinicaReumatologiaContext : DbContext
                 .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK_DIRECCION_CANTON");
 
-            entity.HasOne(d => d.IdDistritoNavigation).WithMany(p => p.Direccions)
-                .HasForeignKey(d => d.IdDistrito)
-                .OnDelete(DeleteBehavior.Cascade)
-                .HasConstraintName("FK_DIRECCION_DISTRITO");
-
             entity.HasOne(d => d.IdProvinciaNavigation).WithMany(p => p.Direccions)
                 .HasForeignKey(d => d.IdProvincia)
                 .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK_DIRECCION_PROVINCIA");
         });
 
-        modelBuilder.Entity<Distrito>(entity =>
-        {
-            entity.HasKey(e => e.IdDistrito).HasName("PK__DISTRITO__6F133D49E8C1EF84");
-
-            entity.ToTable("DISTRITO");
-
-            entity.Property(e => e.IdDistrito).HasColumnName("ID_DISTRITO");
-            entity.Property(e => e.IdCanton).HasColumnName("ID_CANTON");
-            entity.Property(e => e.NombreDistrito)
-                .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("NOMBRE_DISTRITO");
-
-            entity.HasOne(d => d.IdCantonNavigation).WithMany(p => p.Distritos)
-                .HasForeignKey(d => d.IdCanton)
-                .HasConstraintName("FK_DISTRITO_CANTON");
-        });
 
         modelBuilder.Entity<Expediente>(entity =>
         {
@@ -215,23 +190,7 @@ public partial class ClinicaReumatologiaContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("CEDULA_PACIENTE");
-            entity.Property(e => e.ExamenFisico)
-                .HasMaxLength(2000)
-                .IsUnicode(false)
-                .HasColumnName("EXAMEN_FISICO");
             entity.Property(e => e.IdAntecedentes).HasColumnName("ID_ANTECEDENTES");
-            entity.Property(e => e.ImpresionDiagnostica)
-                .HasMaxLength(2000)
-                .IsUnicode(false)
-                .HasColumnName("IMPRESION_DIAGNOSTICA");
-            entity.Property(e => e.PadecimientoActual)
-                .HasMaxLength(2000)
-                .IsUnicode(false)
-                .HasColumnName("PADECIMIENTO_ACTUAL");
-            entity.Property(e => e.PlanTratamiento)
-                .HasMaxLength(2000)
-                .IsUnicode(false)
-                .HasColumnName("PLAN_TRATAMIENTO");
 
             entity.HasOne(d => d.CedulaPacienteNavigation).WithMany(p => p.Expedientes)
                 .HasForeignKey(d => d.CedulaPaciente)
@@ -388,20 +347,12 @@ public partial class ClinicaReumatologiaContext : DbContext
 
     public void crearExpediente(
         string cedulaPaciente,
-        int idAntecedentes, 
-        string padecimientoActual, 
-        string examenFisico, 
-        string impresionDiagnostica,
-        string planTratamiento) {
+        int idAntecedentes) {
 
         Database.ExecuteSqlRaw(
-            "exec SP_INSERTAR_EXPEDIENTE {0},{1},{2},{3},{4}, {5}",
+            "exec SP_INSERTAR_EXPEDIENTE {0},{1}",
             cedulaPaciente,
-            idAntecedentes,
-            padecimientoActual,
-            examenFisico,
-            impresionDiagnostica,
-            planTratamiento
+            idAntecedentes
         );
     
     }
@@ -415,7 +366,7 @@ public partial class ClinicaReumatologiaContext : DbContext
         string AQTx 
         ) {
         Database.ExecuteSqlRaw(
-            "exec SP_INSERTAR_ANTECEDENTES {0}, {1}, {2}, {3}, {4}",
+            "exec SP_INSERTAR_ANTECEDENTE {0}, {1}, {2}, {3}, {4}",
             AGO,
             APnoP,
             APP,
@@ -437,7 +388,7 @@ public partial class ClinicaReumatologiaContext : DbContext
       DateOnly fechaNacimiento
     ) {
         Database.ExecuteSqlRaw(
-            "exec SP_INSERTAR_PACIENTE {0},{1},{2},{3},{4},{5},{6},{7}",
+            "exec SP_INSERTAR_PACIENTE {0},{1},{2},{3},{4},{5},{6},{7},{8}",
             cedulaPaciente,
             nombre,
             primerApellido,
@@ -455,14 +406,12 @@ public partial class ClinicaReumatologiaContext : DbContext
     public void crearDireccion(
         int idProvincia,
         int idCanton,
-        int idDistrito,
         string direccion
     ) {
         Database.ExecuteSqlRaw(
-            "exec SP_INSERTAR_DIRECCION {0},{1}, {2}, {3}",
+            "exec SP_INSERTAR_DIRECCION {0},{1}, {2}",
             idProvincia,
             idCanton,
-            idDistrito,
             direccion
         );
 
@@ -492,11 +441,6 @@ public partial class ClinicaReumatologiaContext : DbContext
         return Cantons.FromSqlRaw("exec SP_LISTAR_CANTON").ToList();
     }
 
-    public List<Distrito> obtenerDistrito()
-    {
-
-        return Distritos.FromSqlRaw("exec SP_LISTAR_DISTRITO").ToList();
-    }
 
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

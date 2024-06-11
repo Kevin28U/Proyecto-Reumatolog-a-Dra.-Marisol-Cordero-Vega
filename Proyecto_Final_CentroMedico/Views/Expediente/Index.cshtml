@@ -1,5 +1,5 @@
-﻿@{
-}
+﻿@model DAL.ViewModels.ExpedienteViewModel
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -47,19 +47,24 @@
                                     <a class="btn btn-editar" asp-controller="Expediente" asp-action="Crear">Crear Expediente</a>
                                 </div>
 
-                                <form action="/" method="post">
+                                <form asp-action="Buscar" method="post">
                                     <div class="mb-3">
                                         <label for="cedula" class="form-label">Número de Cédula</label>
-                                        <input class="form-control" type="text" id="cedula" value="" />
+                                        <input class="form-control" type="text" id="cedulaBuscar" name="cedulaBuscar" value="" />
                                     </div>
+                                    <button type="submit" class="btn btn-editar">Buscar Expediente</button>
                                 </form>
-                                <button type="submit" class="btn btn-editar">Buscar Expediente</button>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-                <table class="table mt-5">
-                    <thead>
+           
+                    @if (Model != null)
+                    {
+                    <table class="table mt-5">
+
+                         <thead>
                         <tr>
                             <th scope="col">Número Expediente</th>
                             <th scope="col">Cédula</th>
@@ -71,22 +76,40 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">55</th>
-                            <td>14589636</td>
-                            <td>Otto</td>
-                            <td>Martin</td>
-                            <td>Ortiz</td>
+                            <th scope="row">@Model.IdExpediente</th>
+                            <td>@Model.cedula</td>
+                            <td>@Model.Nombre</td>
+                            <td>@Model.PrimerApellido</td>
+                            <td>@Model.SegundoApellido</td>
                             <td>
-                                <a class="btn btn-editar" asp-controller="Expediente" asp-action="Detalle">Detalle</a>
+                                <a class="btn btn-editar" asp-controller="Expediente" asp-action="Detalle" asp-route-id="@Model.cedula">Detalle</a>
                                 <a class="btn btn-editar" asp-controller="Expediente" asp-action="Editar">Editar</a>
-                                <a class="btn btn-eliminar" asp-controller="" asp-action="">Eliminar</a>
+                                    <a id="eliminar-expediente" data-cedula="@Model.cedula" class="btn btn-eliminar" asp-controller="Expediente" asp-action="Eliminar" asp-route-id="@Model.cedula">Eliminar</a>
                             </td>
                         </tr>
                     </tbody>
                 </table>
+                        
+                    
+                    }
+
+                @{
+                    if (ViewBag.datosEncontrados != null && ViewBag.datosEncontrados == false)
+                    {
+                        <p class="text-danger text-center mt-5" id="mensaje-confirmacion"><strong>¡Expediente no encontrado!</strong></p>
+                        
+                    
+                    }
+
+               }
+                   
             </main>
         </div>
     </div>
+    <script src="~/js/mensajes.js">
+    </script>
+    <script src="~/js/EliminarExpediente.js">
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -94,3 +117,9 @@
 </body>
 
 </html>
+
+@section Scripts {
+    <script>
+        var eliminarUrl = '@Url.Action("Eliminar", "Expediente")';
+    </script>
+}

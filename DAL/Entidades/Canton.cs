@@ -13,7 +13,5 @@ public partial class Canton
 
     public virtual ICollection<Direccion> Direccions { get; set; } = new List<Direccion>();
 
-    public virtual ICollection<Distrito> Distritos { get; set; } = new List<Distrito>();
-
     public virtual Provincium? IdProvinciaNavigation { get; set; }
 }

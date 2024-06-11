@@ -2,9 +2,14 @@
 
 }
 
+
+
+@model Tuple<Antecedente, Expediente, Direccion, Paciente>
+
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 <link href="~/css/style_expedientes_crud.css" rel="stylesheet" />
+
 
 <div class="container">
     <div class="row justify-content-center">
@@ -14,75 +19,129 @@
                     <h3 class="mb-0">Crear Expediente</h3>
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form asp-action="Crear" id="crearExpediente" cedula-ok="@ViewBag.cedulaOK">
                         <div class="form-row">
                             <h4>Información del Paciente</h4>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="cedula">Cedula</label>
-                                <input type="text" class="form-control" id="cedula" placeholder="Ingrese el número de cédula">
+                                <input type="text" class="form-control" id="cedula" placeholder="Ingrese el número de cédula" asp-for="Item4.CedulaPaciente">
+
+
+                                    <span asp-validation-for="Item4.CedulaPaciente" class="text-danger"></span>
+
+                                
+                            
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="fechaNacimiento">Fecha Nacimiento</label>
-                                <input type="date" class="form-control" id="fechaNacimiento" placeholder="Ingrese la fecha de nacimiento">
+                                <input type="date" class="form-control" id="fechaNacimiento" placeholder="Ingrese la fecha de nacimiento" asp-for="Item4.FechaNacimiento">
+
+
+                                <span asp-validation-for="Item4.FechaNacimiento" class="text-danger"></span>
+
+                                
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="nombre">Nombre</label>
-                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" asp-for="Item4.Nombre">
+
+
+                                    <span asp-validation-for="Item4.Nombre" class="text-danger"></span>
+
+                                
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="primerApellido">Primer Apellido</label>
-                                <input type="text" class="form-control" id="primerApellido" placeholder="Ingrese su primer apellido">
+                                <input type="text" class="form-control" id="primerApellido" placeholder="Ingrese su primer apellido" asp-for="Item4.PrimerApellido">
+
+
+                                    <span asp-validation-for="Item4.PrimerApellido" class="text-danger"></span>
+
+                                
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="segundoApellido">Segundo Apellido</label>
-                                <input type="text" class="form-control" id="segundoApellido" placeholder="Ingrese su segundo apellido">
+                                <input type="text" class="form-control" id="segundoApellido" placeholder="Ingrese su segundo apellido" asp-for="Item4.SegundoApellido">
+
+
+                                    <span asp-validation-for="Item4.SegundoApellido" class="text-danger"></span>
+
+                                
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="sexo">Sexo</label>
-                                <select class="form-control" id="sexo" asp-items="ViewBag.Sexos">
+                                <select class="form-control" id="sexo" asp-items="ViewBag.Sexos" asp-for="Item4.IdSexo">
                                     <option value="">Seleccione el sexo</option>
 
                                 </select>
+
+
+                                    <span asp-validation-for="Item4.IdSexo" class="text-danger"></span>
+
+                                
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="ocupacion">Ocupación</label>
-                                <select class="form-control" id="ocupacion" asp-items="ViewBag.Ocupaciones">
+                                <select class="form-control" id="ocupacion" asp-items="ViewBag.Ocupaciones" asp-for="Item4.IdOcupacion">
                                     <option value="">Seleccione la ocupación</option>
 
                                 </select>
+
+
+                                    <span asp-validation-for="Item4.IdOcupacion" class="text-danger"></span>
+
+                                
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="edad">Edad</label>
-                                <input type="number" class="form-control" id="edad" placeholder="Ingrese su edad">
+                                <input type="number" class="form-control" id="edad" placeholder="Ingrese su edad" asp-for="Item4.Edad">
+
+
+                                    <span asp-validation-for="Item4.Edad" class="text-danger"></span>
+
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="canton">Cantón</label>
-                                <select class="form-control" id="canton" asp-items="ViewBag.Cantones">
+                                <select class="form-control" id="canton" asp-items="ViewBag.Cantones" asp-for="Item3.IdCanton">
                                     <option value="">Seleccione su cantón</option>
 
                                 </select>
+
+
+                                    <span asp-validation-for="Item3.IdCanton" class="text-danger"></span>
+
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="provincia">Provincia</label>
-                                <select class="form-control" id="provincia" asp-items="ViewBag.Provincias">
+                                <select class="form-control" id="provincia" asp-items="ViewBag.Provincias" asp-for="Item3.IdProvincia">
                                     <option value="">Seleccione su provincia</option>
 
                                 </select>
+
+
+                                    <span asp-validation-for="Item3.IdProvincia" class="text-danger"></span>
+
+                                
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="direccion">Dirección</label>
-                            <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
+                            <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección" asp-for="Item3.Direccion1">
+
+
+                                <span asp-validation-for="Item3.Direccion1" class="text-danger"></span>
+
+                            
                         </div>
 
                         <div class="form-row">
@@ -90,33 +149,59 @@
                         </div>
                         <div class="form-group">
                             <label for="AGO">Antecedentes Gineco-Obstetricos</label>
-                            <textarea rows="8" class="form-control" id="AGO">
+                            <textarea rows="8" class="form-control" id="AGO" asp-for="Item1.Ago">
+
 
                             </textarea>
+
+
+                                <span asp-validation-for="Item1.Ago" class="text-danger"></span>
+
+                            
                         </div>
                         <div class="form-group">
                             <label for="APnoP">Antecedentes Personales No Patológicos</label>
-                            <textarea rows="8" class="form-control" id="APnoP">
+                            <textarea rows="8" class="form-control" id="APnoP" asp-for="Item1.ApnoP">
 
                             </textarea>
+
+
+                                <span asp-validation-for="Item1.ApnoP" class="text-danger"></span>
+
+                            
                         </div>
                         <div class="form-group">
                             <label for="APP">Antecedentes Personales Patológicos</label>
-                            <textarea rows="8" class="form-control" id="APP">
+                            <textarea rows="8" class="form-control" id="APP" asp-for="Item1.App">
 
                             </textarea>
+
+
+                                <span asp-validation-for="Item1.App" class="text-danger"></span>
+
+                            
                         </div>
                         <div class="form-group">
                             <label for="AHF">Antecedentes Heredo-familiares</label>
-                            <textarea rows="8" class="form-control" id="AHF">
+                            <textarea rows="8" class="form-control" id="AHF" asp-for="Item1.Ahf">
 
                             </textarea>
+
+
+                                <span asp-validation-for="Item1.Ahf" class="text-danger"></span>
+
+                            
                         </div>
                         <div class="form-group">
                             <label for="AQTx">Antecedentes Quirúrgicos y Traumáticos </label>
-                            <textarea rows="8" class="form-control" id="AQTx">
+                            <textarea rows="8" class="form-control" id="AQTx" asp-for="Item1.Aqtx">
 
                             </textarea>
+
+
+                                <span asp-validation-for="Item1.Aqtx" class="text-danger"></span>
+
+                            
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-block rounded-pill">Guardar</button>
@@ -127,3 +212,11 @@
     </div>
     <br></br>
 </div>
+
+
+
+
+
+
+<script src="~/js/CrearExpediente.js"></script>
+

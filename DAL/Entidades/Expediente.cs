@@ -11,13 +11,6 @@ public partial class Expediente
 
     public int? IdAntecedentes { get; set; }
 
-    public string? PadecimientoActual { get; set; }
-
-    public string? ExamenFisico { get; set; }
-
-    public string? ImpresionDiagnostica { get; set; }
-
-    public string? PlanTratamiento { get; set; }
 
     public virtual ICollection<Bitacora> Bitacoras { get; set; } = new List<Bitacora>();
 
