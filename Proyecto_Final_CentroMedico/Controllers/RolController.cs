@@ -25,22 +25,22 @@ namespace Proyecto_Final_CentroMedico.Controllers
         }
 
         // GET: Rol/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Details(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var rol = await _context.Rols
-                .FirstOrDefaultAsync(m => m.IdRol == id);
-            if (rol == null)
-            {
-                return NotFound();
-            }
+        //    var rol = await _context.Rols
+        //        .FirstOrDefaultAsync(m => m.IdRol == id);
+        //    if (rol == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(rol);
-        }
+        //    return View(rol);
+        //}
 
         // GET: Rol/Create
         public IActionResult Crear()
@@ -48,9 +48,8 @@ namespace Proyecto_Final_CentroMedico.Controllers
             return View();
         }
 
+
         // POST: Rol/Crear
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Crear([Bind("IdRol,NombreRol")] Rol rol)
@@ -59,13 +58,14 @@ namespace Proyecto_Final_CentroMedico.Controllers
             {
                 _context.Add(rol);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Json(new { success = true });
             }
-            return View(rol);
+            return Json(new { success = false });
         }
 
-        // GET: Rol/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+
+        // GET: Rol/Editar/5
+        public async Task<IActionResult> Editar(int? id)
         {
             if (id == null)
             {
@@ -80,16 +80,14 @@ namespace Proyecto_Final_CentroMedico.Controllers
             return View(rol);
         }
 
-        // POST: Rol/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Rol/Editar/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdRol,NombreRol")] Rol rol)
+        public async Task<IActionResult> Editar(int id, [Bind("IdRol,NombreRol")] Rol rol)
         {
             if (id != rol.IdRol)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Rol no encontrado." });
             }
 
             if (ModelState.IsValid)
@@ -98,25 +96,27 @@ namespace Proyecto_Final_CentroMedico.Controllers
                 {
                     _context.Update(rol);
                     await _context.SaveChangesAsync();
+                    return Json(new { success = true });
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!RolExists(rol.IdRol))
                     {
-                        return NotFound();
+                        return Json(new { success = false, message = "Rol no existe." });
                     }
                     else
                     {
                         throw;
                     }
+
                 }
-                return RedirectToAction(nameof(Index));
             }
-            return View(rol);
+            return Json(new { success = false, message = "Modelo no válido." });
         }
 
-        // GET: Rol/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+
+        // GET: Rol/Eliminar/5
+        public async Task<IActionResult> Eliminar(int? id)
         {
             if (id == null)
             {
@@ -133,8 +133,8 @@ namespace Proyecto_Final_CentroMedico.Controllers
             return View(rol);
         }
 
-        // POST: Rol/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: Rol/Eliminar/5
+        [HttpPost, ActionName("Eliminar")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -142,11 +142,12 @@ namespace Proyecto_Final_CentroMedico.Controllers
             if (rol != null)
             {
                 _context.Rols.Remove(rol);
+                await _context.SaveChangesAsync();
+                return Json(new { success = true });
             }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return Json(new { success = false });
         }
+
 
         private bool RolExists(int id)
         {
