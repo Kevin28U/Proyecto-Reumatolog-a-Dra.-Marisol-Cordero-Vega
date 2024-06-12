@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Proyecto_Final_CentroMedico;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("Conn") ?? throw new InvalidOperationException("Connection string 'Conn' not found.");
+//var connectionString = builder.Configuration.GetConnectionString("Conn") ?? throw new InvalidOperationException("Connection string 'Conn' not found.");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

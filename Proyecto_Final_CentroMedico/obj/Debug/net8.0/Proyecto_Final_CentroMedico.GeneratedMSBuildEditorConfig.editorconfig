@@ -17,111 +17,115 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto_Final_CentroMedico
 build_property.RootNamespace = Proyecto_Final_CentroMedico
-build_property.ProjectDir = C:\Users\kevin\OneDrive\Escritorio\Desarrollo Proyecto del año\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\Proyecto_Final_CentroMedico\
+build_property.ProjectDir = C:\Users\fabia\Documents\GitHub\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\Proyecto_Final_CentroMedico\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kevin\OneDrive\Escritorio\Desarrollo Proyecto del año\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\Proyecto_Final_CentroMedico
+build_property.MSBuildProjectDirectory = C:\Users\fabia\Documents\GitHub\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\Proyecto_Final_CentroMedico
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Bitacora/Crear.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Bitacora/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQml0YWNvcmFcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Bitacora/Editar.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Bitacora/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQml0YWNvcmFcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Cita/Index.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Cita/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Crear.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZWRpZW50ZVxDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Dashboard.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZWRpZW50ZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Detalle.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZWRpZW50ZVxEZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Editar.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZWRpZW50ZVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Eliminar.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZWRpZW50ZVxFbGltaW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Index.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Expediente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZWRpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/Index.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/Login.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/Privacy.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/SeccionInformativa.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Home/SeccionInformativa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWNjaW9uSW5mb3JtYXRpdmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Login/Login.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Crear.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Editar.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Index.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEVsaW1pbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Rol/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Shared/Error.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Usuario/Crear.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Usuario/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Usuario/Editar.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Usuario/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Usuario/Index.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/_ViewImports.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/_ViewStart.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevin/OneDrive/Escritorio/Desarrollo Proyecto del año/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Shared/_Layout.cshtml]
+[C:/Users/fabia/Documents/GitHub/Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega/Proyecto_Final_CentroMedico/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q1m4sgls3s

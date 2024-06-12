@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto_Final_CentroMedico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b503e94ffb9583bafadb558666b8252fcc96624")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85ad381efa73d9c84580eb80f3168a90d7ea9372")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto_Final_CentroMedico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto_Final_CentroMedico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

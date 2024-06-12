@@ -14,18 +14,25 @@
         <div class="col-8">
             <div class="card border-primary mt-5 rounded-lg">
                 <div class="card-header">
-                    Crear Rol
+                    Eliminación de Rol
                 </div>
-                <form id="createForm" asp-action="Crear">
-                    <div asp-validation-summary="ModelOnly"></div>
-                    <div class="mb-3">
-                        <label asp-for="NombreRol" class="form-label">Nombre</label>
-                        <input asp-for="NombreRol" type="text" class="form-control" aria-describedby="emailHelp">
-                        <span asp-validation-for="NombreRol"></span>
-                    </div>
-                    <br>
-                    <button type="submit" value="Crear" class="btn btn-primary btn-block">Agregar</button>
-                </form>
+                <h3>Seguro que deseas eliminar el rol a continuación?</h3>
+                <div>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.NombreRol)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.NombreRol)
+                        </dd>
+                    </dl>
+
+                    <form id="deleteForm" asp-action="Eliminar">
+                        <input type="hidden" asp-for="IdRol" />
+                        <input type="submit" value="Eliminar" class="btn btn-primary btn-block" />
+                    </form>
+                </div>
                 <div class="mt-3">
                     <a href="~/Rol/Index" class="btn btn-primary btn-block">Volver</a>
                 </div>
@@ -39,30 +46,19 @@
 
 <script>
     $(document).ready(function () {
-        $('#createForm').submit(function (e) {
+        $('#deleteForm').submit(function (e) {
             e.preventDefault(); // prevenir el envío por defecto
-
-            var nombreRol = $('#NombreRol').val().trim();
-
-            if (nombreRol === '') {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error!',
-                    text: 'El nombre del rol es obligatorio.'
-                });
-                return false;
-            }
 
             $.ajax({
                 type: 'POST',
-                url: '@Url.Action("Crear")',
+                url: '@Url.Action("Eliminar")',
                 data: $(this).serialize(),
                 success: function (response) {
                     if (response.success) {
                         Swal.fire({
                             icon: 'success',
-                            title: 'Creado!',
-                            text: 'El rol ha sido creado con éxito.'
+                            title: 'Eliminado!',
+                            text: 'El rol ha sido eliminado con éxito.'
                         }).then(() => {
                             window.location.href = '@Url.Action("Index", "Rol")';
                         });
@@ -70,7 +66,7 @@
                         Swal.fire({
                             icon: 'error',
                             title: 'Error!',
-                            text: 'No se pudo crear el rol.'
+                            text: 'No se pudo eliminar el rol.'
                         });
                     }
                 }
@@ -78,3 +74,4 @@
         });
     });
 </script>
+
