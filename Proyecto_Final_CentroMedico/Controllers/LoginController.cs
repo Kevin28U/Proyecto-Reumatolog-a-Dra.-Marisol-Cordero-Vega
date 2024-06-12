@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
-
 using Proyecto_Final_CentroMedico.Recursos;
 using Proyecto_Final_CentroMedico.Servicios.Contrato;
 using System.Security.Claims;
+using System.Threading.Tasks;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Proyecto_Final_CentroMedico.Controllers
 {
@@ -18,7 +20,6 @@ namespace Proyecto_Final_CentroMedico.Controllers
             _context = context;
         }
 
-
         public IActionResult AccesoDenegado()
         {
             return View();
@@ -27,37 +28,44 @@ namespace Proyecto_Final_CentroMedico.Controllers
         [HttpPost]
         public async Task<IActionResult> Registrarse(Usuario modelo)
         {
-       
-            var usuarioExistente = _context.Usuarios.Any(u => u.CorreoElectronico == modelo.CorreoElectronico);
-            if (usuarioExistente)
+
+  
+            if (modelo.Contrasena.Length < 5)
             {
-                return Json(new { error = "El CorreoElectronico ya existe" });
+                TempData["ErrorMessage"] = "La contraseña debe tener al menos 5 caracteres.";
+                return RedirectToAction("IniciarSesion");
             }
 
-       
-            var correoExistente = _context.Usuarios.Any(u => u.NombreUsuario == modelo.NombreUsuario);
+
+            var correoExistente = _context.Usuarios.Any(u => u.CorreoElectronico == modelo.CorreoElectronico);
             if (correoExistente)
             {
-                return Json(new { error = "Nombre de usuario en uso" });
+                TempData["ErrorMessage"] = "El correo  ya esta registrado.";
+                return RedirectToAction("IniciarSesion");
             }
 
-          
-            modelo.Contrasena = Utilidades.EncriptarClave(modelo.Contrasena);
 
-          
-            modelo.IdRol = 4; 
+            var usuarioExistente = _context.Usuarios.Any(u => u.NombreUsuario == modelo.NombreUsuario);
+            if (usuarioExistente)
+            {
+                TempData["ErrorMessage"] = "El nombre de usuario ya esta registrado.";
+                return RedirectToAction("IniciarSesion");
+            }
+
+            modelo.Contrasena = Utilidades.EncriptarClave(modelo.Contrasena);
+            modelo.IdRol = 4;
 
             Usuario usuarioCreado = await _usuarioServicio.SaveUsuario(modelo);
 
-            
             if (!string.IsNullOrEmpty(usuarioCreado.CorreoElectronico))
-                return RedirectToAction("IniciarSesion", "Login");
+            {
+                TempData["SuccessMessage"] = "Usuario registrado exitosamente.";
+                return RedirectToAction("IniciarSesion");
+            }
 
-
-            ViewData["Mensaje"] = "No se pudo crear el usuario";
-            return View();
+            TempData["ErrorMessage"] = "No se pudo crear el usuario.";
+            return RedirectToAction("IniciarSesion");
         }
-
 
         public IActionResult IniciarSesion()
         {
@@ -67,12 +75,11 @@ namespace Proyecto_Final_CentroMedico.Controllers
         [HttpPost]
         public async Task<IActionResult> IniciarSesion(string CorreoElectronico, string Contrasena)
         {
-
             Usuario usuario_encontrado = await _usuarioServicio.GetUsuario(CorreoElectronico, Utilidades.EncriptarClave(Contrasena));
 
             if (usuario_encontrado == null)
             {
-                ViewData["Mensaje"] = "No se encontraron coincidencias";
+                TempData["ErrorMessage"] = "No se encontraron coincidencias";
                 return View();
             }
 
@@ -91,7 +98,7 @@ namespace Proyecto_Final_CentroMedico.Controllers
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(claimsIdentity),
                 properties
-                );
+            );
 
             return RedirectToAction("Index", "Home");
         }
