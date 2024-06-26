@@ -37,3 +37,34 @@
 label {
     font-weight: bold;
 }
+
+.btn-editar {
+    background: #0F4C5C;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
+    .btn-editar:hover {
+        background: #072B3C;
+        color: white;
+    }
+
+.btn-eliminar {
+    background: #12C1DB;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
+    .btn-eliminar:hover {
+        background: #0F93AB;
+        color: white;
+    }

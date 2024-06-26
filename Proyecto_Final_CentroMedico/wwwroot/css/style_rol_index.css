@@ -7,6 +7,48 @@
     margin: 0;
 }
 
+
+a {
+    text-decoration: none;
+}
+
+.barra-lateral {
+    background-color: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+
+    .barra-lateral a {
+        color: #fff;
+        background-color: #262a34;
+    }
+
+    .barra-lateral .logo {
+        background-color: #0275db;
+    }
+
+        .barra-lateral .logo h2 {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+    .barra-lateral .menu a {
+        display: block;
+        padding: 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+        .barra-lateral .menu a:hover {
+            background: #35ae6b;
+        }
+
+        .barra-lateral .menu a svg {
+            margin-left: 10px;
+        }
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -79,4 +121,36 @@ label {
 
     .table td a{
         color: #0B4750;
+    }
+
+.btn-editar {
+    background: #0F4C5C;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
+    .btn-editar:hover {
+        background: #072B3C;
+        color: white;
+    }
+
+
+.btn-eliminar {
+    background: #12C1DB;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
+    .btn-eliminar:hover {
+        background: #0F93AB;
+        color: white;
     }

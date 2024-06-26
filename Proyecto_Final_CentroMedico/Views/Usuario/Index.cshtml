@@ -34,10 +34,10 @@
             <div class="container-fluid">
                 <!-- Page Heading -->
                 <div class="d-sm-flex align-items-center justify-content-between mb-4 header-section">
-                    <h1 class="h3 mb-0 text-gray-800">Gestión Usuarios</h1>
+                    <h1 class="h3 mb-0 text-gray-800">Gestión de Usuarios</h1>
                 </div>
                 <p>
-                    <a class="btn btn-primary btn-crear-usuario" asp-controller="Usuario" asp-action="Crear">Agregar Usuario</a>
+                    <a class="btn btn-editar btn-crear-usuario" asp-controller="Usuario" asp-action="Crear">Agregar Usuario</a>
                 </p>
                 <table class="table">
                     <thead>
@@ -47,134 +47,29 @@
                             <th scope="col">Primer Apellido</th>
                             <th scope="col">Segundo Apellido</th>
                             <th scope="col">Correo Electrónico</th>
-                            <th scope="col">Rol</th>
                             <th scope="col"></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mario</td>
-                            <td>Tapia</td>
-                            <td>Arce</td>
-                            <td>mariotapia65@gmail.com</td>
-                            <td>Administrador</td>
-                            <td>
-                                <a class="btn btn-editar" asp-controller="Usuario" asp-action="Editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Marcelo</td>
-                            <td>Prieto</td>
-                            <td>Murillo</td>
-                            <td>mprieto@gmail.com</td>
-                            <td>Administrador</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Angela</td>
-                            <td>Wong</td>
-                            <td>Lee</td>
-                            <td>angiew49@hotmail.com</td>
-                            <td>Médico</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Mario</td>
-                            <td>Tapia</td>
-                            <td>Arce</td>
-                            <td>mariotapia65@gmail.com</td>
-                            <td>Secretario</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>Arturo</td>
-                            <td>Campos</td>
-                            <td>Artavia</td>
-                            <td>aca78@gmail.com</td>
-                            <td>Paciente</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">6</th>
-                            <td>Pedro</td>
-                            <td>Ruiz</td>
-                            <td>Arce</td>
-                            <td>prarce@gmail.com</td>
-                            <td>Paciente</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">7</th>
-                            <td>Mario</td>
-                            <td>Tapia</td>
-                            <td>Arce</td>
-                            <td>mariotapia65@gmail.com</td>
-                            <td>Paciente</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">8</th>
-                            <td>Esteban</td>
-                            <td>Campos</td>
-                            <td>Durtmond</td>
-                            <td>estebancampos95@gmail.com</td>
-                            <td>Paciente</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">9</th>
-                            <td>Mario</td>
-                            <td>López</td>
-                            <td>Cantillo</td>
-                            <td>mariolopez99@gmail.com</td>
-                            <td>Paciente</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">9</th>
-                            <td>Juan</td>
-                            <td>Arce</td>
-                            <td>León</td>
-                            <td>juanarce09@gmail.com</td>
-                            <td>Paciente</td>
-                            <td>
-                                <a class="btn btn-editar">Editar</a>
-                                <a class="btn btn-eliminar">Inhabilitar</a>
-                            </td>
-                        </tr>
+                        @foreach (var usuario in Model)
+                        {
+                            <tr>
+                                <td>@usuario.IdUsuario</td>
+                                <td>@usuario.Nombre</td>
+                                <td>@usuario.PrimerApellido</td>
+                                <td>@usuario.SegundoApellido</td>
+                                <td>@usuario.CorreoElectronico</td>
+                                <td>@(usuario.IdRolNavigation != null ? usuario.IdRolNavigation.NombreRol : "")</td>
+                                <td>
+                                    <a class="btn btn-editar" asp-controller="Usuario" asp-action="Editar" asp-route-id="@usuario.IdUsuario">Editar</a>
+                                    <a class="btn btn-eliminar" asp-controller="Usuario" asp-action="Delete" asp-route-id="@usuario.IdUsuario">Eliminar</a>
+                                </td>
+                            </tr>
+                        }
                     </tbody>
                 </table>
             </div>
         </main>
+
     </div>
 </div>

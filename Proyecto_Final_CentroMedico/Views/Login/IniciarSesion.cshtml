@@ -1,0 +1,134 @@
+﻿@model Usuario
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="~/css/Login.css">
+    <title>FORMULARIO DE REGISTRO E INICIO SESIÓN</title>
+</head>
+<body style="display: flex; align-items: center; justify-content: center; height: 100vh; background-image: url('/img/fondo.jpg'); background-size: cover;">
+
+    <div class="container-form login ">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Para registrarse a nuestro sistema por favor ir a la seccion de registro y ingresar los datos correspondientes</p>
+                <input type="button" value="Registro" id="sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar sesion</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o usa tu email para Iniciar sesion</p>
+                <form asp-controller="Login" asp-action="IniciarSesion" method="post" class="form">
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Correo Electronico" required name="CorreoElectronico">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Contraseña" required name="Contrasena">
+                    </label>
+                    <input type="submit" value="Iniciar Sesion">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-form register hide">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Para ingresar a nuestro sistema por favor Inicia Sesion con los datos correspondientes</p>
+                <input type="button" value="Iniciar Sesion" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una Cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o usa tu email para registrarte</p>
+                <form asp-controller="Login" asp-action="Registrarse" method="post" class="form" id="form">
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Nombre" required asp-for="Nombre">
+                    </label>
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Primer Apellido" required asp-for="PrimerApellido">
+                    </label>
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Segundo Apellido" asp-for="SegundoApellido">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Correo Electrónico" required asp-for="CorreoElectronico">
+                    </label>
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Nombre" required asp-for="NombreUsuario">
+                    </label>
+                    <label>
+                        <i class='bx bx-phone'></i>
+                        <input type="text" placeholder="Número Telefónico" required asp-for="Telefono">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Contraseña" required asp-for="Contrasena">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <text>
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: '@TempData["ErrorMessage"]',
+                        confirmButtonText: 'OK'
+                    });
+            </text>
+        }
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <text>
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Éxito',
+                        text: '@TempData["SuccessMessage"]',
+                        confirmButtonText: 'OK'
+                    });
+            </text>
+        }
+                });
+    </script>
+
+    <script src="~/js/Login.js"></script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 ﻿@{
 }
+@model DAL.ViewModels.VerExpedienteViewModel
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -9,165 +10,192 @@
     <div class="row justify-content-center">
         <div class="col-8">
             <div class="card border-primary mt-5 rounded-lg">
-                <div class="card-header bg-primary text-white text-center rounded-top">
+                <div class="card-header text-white text-center rounded-top" style="background-color: #0F4C5C;">
                     <h2 class="mb-0">Detalle del expediente</h2>
                 </div>
-                <div class="card-body">
-                    <div>
-                        <br></br><h3>Información del Paciente</h3><br></br>
+                @if (Model != null)
+                {
+                    <div class="card-body">
                         <div>
-                            <strong>Nombre: </strong>Otto Martin Ortiz
-                        </div><hr></hr>
-                        <div>
-                            <strong>Edad: </strong>68
-                        </div><hr></hr>
-                        <div>
-                            <strong>Sexo: </strong>Hombre
-                        </div><hr></hr>
-                        <div>
-                            <strong>Nacionalidad: </strong>Costarricense
-                        </div><hr></hr>
-                        <div>
-                            <strong>Provincia: </strong>Alajuela
-                        </div><hr></hr>
-                        <div>
-                            <strong>Cantón: </strong>Alajuela
-                        </div><hr></hr>
-                        <div>
-                            <strong>Distrito: </strong>Alajuela
-                        </div><hr></hr>
-                        <div>
-                            <strong>Dirección: </strong> 200 metros oeste de Plaza Real Alajuela
-                        </div><hr></hr>
-                        <div>
-                            <strong>Estado Civil: </strong>Casado
-                        </div><hr></hr>
-                        <div>
-                            <strong>Ocupación: </strong>Pensionado
-                        </div><hr></hr>
-                    </div>
-                    <div class="mt-4">
-                        <h3>Diagnóstico Médico</h3>
-                        <strong>Enfermedades Diagnosticadas:</strong> Artritis Reumatoide - Lupus Eritematoso Sistémico - Síndrome Sjogren
-                    </div>
-                    <div class="mt-5 mb-5">
-                        <h3>Información de las Citas</h3>
-                        <a class="btn btn-primary mb-3" href="#" style="background-color: #0F4C5C; margin: 4px 2px;">Agregar Bitácora</a>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Cita del 15/04/2023
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <div>
-                                            <label class="font-weight-bold">Sintomatología del Paciente</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
+                            <br></br><h3>Información del Paciente</h3><br></br>
+                            <div>
+                                <strong>Nombre: </strong>@Model.cedula
+                            </div><hr></hr>
+                            <div>
+                                <strong>Nombre: </strong>@Model.nombre
+                            </div><hr></hr>
+                            <div>
+                                <strong>Primer Apellido: </strong>@Model.PrimerApellido
+                            </div><hr></hr>
+                            <div>
+                                <strong>Segundo Apellido: </strong>@Model.SegundoApellido
+                            </div><hr></hr>
+                            <div>
+                                <strong>Fecha de Nacimiento: </strong>@Model.FechaNacimiento
+                            </div><hr></hr>
+                            <div>
+                                <strong>Edad: </strong>@Model.edad
+                            </div><hr></hr>
+                            <div>
+                                <strong>Sexo: </strong>@Model.Sexo
+                            </div><hr></hr>
+                            <div>
+                                <strong>Ocupacion: </strong>@Model.Ocupacion
+                            </div><hr></hr>
+                            <div>
+                                <strong>Provincia </strong>@Model.Provincia
+                            </div><hr></hr>
+                            <div>
+                                <strong>Cantón: </strong>@Model.Canton
+                            </div><hr></hr>
+                            <div>
+                                <strong>Dirección: </strong>@Model.Direccion
+                            </div><hr></hr>
+                            <br></br><h3>Antecedentes del Paciente</h3><br></br>
+                            <div>
+                                <h5>Antecedentes Gineco-Obstetricos</h5>
+                                <strong>Descripción: </strong>@Model.AGO
+                            </div><hr></hr>
+                            <div>
+                                <h5>Antecedentes No Patológicos</h5>
+                                <strong>Descripción: </strong>@Model.APnoP
+                            </div><hr></hr>
+                            <div>
+                                <h5>Antecedentes Patológicos</h5>
+                                <strong>Descripción: </strong>@Model.APP
+                            </div><hr></hr>
+                            <div>
+                                <h5>Antecedentes Heredo-Familiares</h5>
+                                <strong>Descripción: </strong>@Model.AHF
+                            </div><hr></hr>
+                            <div>
+                                <h5>Antecedentes Quirúrgicos y Traumáticos</h5>
+                                <strong>Descripción: </strong>@Model.AQTx
+                            </div><hr></hr>
+
+
+                        </div>
+                        <div class="mt-5 mb-5">
+                            <h3>Información de las Citas</h3>
+                            <a class="btn btn-primary mb-3" href="#" style="background-color: #0F4C5C; margin: 4px 2px;">Agregar Bitácora</a>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Cita del 15/04/2023
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <label class="font-weight-bold">Sintomatología del Paciente</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <label class="font-weight-bold">Evolución del Paciente</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <label class="font-weight-bold">Ajuste en la Medicación</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <a class="btn btn-primary" href="#">Editar</a>
+                                            <a class="btn btn-danger" href="#">Eliminar</a>
                                         </div>
-                                        <div>
-                                            <label class="font-weight-bold">Evolución del Paciente</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <label class="font-weight-bold">Ajuste en la Medicación</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
-                                        </div>
-                                        <a class="btn btn-primary" href="#">Editar</a>
-                                        <a class="btn btn-danger" href="#">Eliminar</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Cita del 18/08/2023
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <div>
-                                            <label class="font-weight-bold">Sintomatología del Paciente</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Cita del 18/08/2023
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <label class="font-weight-bold">Sintomatología del Paciente</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <label class="font-weight-bold">Evolución del Paciente</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <label class="font-weight-bold">Ajuste en la Medicación</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <a class="btn btn-primary" href="#">Editar</a>
+                                            <a class="btn btn-danger" href="#">Eliminar</a>
                                         </div>
-                                        <div>
-                                            <label class="font-weight-bold">Evolución del Paciente</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <label class="font-weight-bold">Ajuste en la Medicación</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
-                                        </div>
-                                        <a class="btn btn-primary" href="#">Editar</a>
-                                        <a class="btn btn-danger" href="#">Eliminar</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Cita del 05/03/2024
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <div>
-                                            <label class="font-weight-bold">Sintomatología del Paciente</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Cita del 05/03/2024
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <label class="font-weight-bold">Sintomatología del Paciente</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <label class="font-weight-bold">Evolución del Paciente</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <label class="font-weight-bold">Ajuste en la Medicación</label>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
+                                                    illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
+                                                    saepe iure possimus.
+                                                </p>
+                                            </div>
+                                            <a class="btn btn-primary" href="#">Editar</a>
+                                            <a class="btn btn-danger" href="#">Eliminar</a>
                                         </div>
-                                        <div>
-                                            <label class="font-weight-bold">Evolución del Paciente</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <label class="font-weight-bold">Ajuste en la Medicación</label>
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illo fuga consequatur, nulla error
-                                                illum consequuntur itaque sint officiis amet, quibusdam, voluptatum officia recusandae? Hic ab alias
-                                                saepe iure possimus.
-                                            </p>
-                                        </div>
-                                        <a class="btn btn-primary" href="#">Editar</a>
-                                        <a class="btn btn-danger" href="#">Eliminar</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                }
+
             </div>
         </div>
     </div>
