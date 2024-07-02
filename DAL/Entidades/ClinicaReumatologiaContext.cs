@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
+
 namespace Proyecto_Final_CentroMedico;
 
 public partial class ClinicaReumatologiaContext : DbContext
@@ -33,6 +34,8 @@ public partial class ClinicaReumatologiaContext : DbContext
 
     public virtual DbSet<Paciente> Pacientes { get; set; }
 
+    public virtual DbSet<Pago> Pagos { get; set; }
+
     public virtual DbSet<Provincium> Provincia { get; set; }
 
     public virtual DbSet<Rol> Rols { get; set; }
@@ -46,14 +49,20 @@ public partial class ClinicaReumatologiaContext : DbContext
         base.OnConfiguring(optionsBuilder);
         optionsBuilder.UseSqlServer();
     }
-    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-    // => optionsBuilder.UseSqlServer("Server=MSI;Database=CLINICA_REUMATOLOGIA;Integrated Security=True;TrustServerCertificate=true");
+
+
+    //#warning To protect potentially sensitive information in your connection string, you should
+    //move it out of source code. You can avoid scaffolding the connection string by using the Name=
+    //syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For
+    //more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+
+    //=> optionsBuilder.UseSqlServer("Server=FABIAN\\SQLEXPRESS;Database=CLINICA_REUMATOLOGIA;Integrated Security=True;TrustServerCertificate=true");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Antecedente>(entity =>
         {
-            entity.HasKey(e => e.IdAntecedentes).HasName("PK__ANTECEDE__26F55BAF55D40FEB");
+            entity.HasKey(e => e.IdAntecedentes).HasName("PK__ANTECEDE__26F55BAFA24331C6");
 
             entity.ToTable("ANTECEDENTES");
 
@@ -82,24 +91,28 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Bitacora>(entity =>
         {
-            entity.HasKey(e => e.IdBitacora).HasName("PK__BITACORA__44E70BF34D39BF8D");
+            entity.HasKey(e => e.IdBitacora).HasName("PK__BITACORA__44E70BF3F9AFDB21");
 
             entity.ToTable("BITACORA");
 
             entity.Property(e => e.IdBitacora).HasColumnName("ID_BITACORA");
-            entity.Property(e => e.CambiosTratamiento)
+            entity.Property(e => e.ExamenFisico)
                 .HasMaxLength(2000)
                 .IsUnicode(false)
-                .HasColumnName("CAMBIOS_TRATAMIENTO");
-            entity.Property(e => e.Evolucion)
-                .HasMaxLength(2000)
-                .IsUnicode(false)
-                .HasColumnName("EVOLUCION");
+                .HasColumnName("EXAMEN_FISICO");
             entity.Property(e => e.IdExpediente).HasColumnName("ID_EXPEDIENTE");
-            entity.Property(e => e.Sintomatologia)
+            entity.Property(e => e.ImpresionDiagnostica)
                 .HasMaxLength(2000)
                 .IsUnicode(false)
-                .HasColumnName("SINTOMATOLOGIA");
+                .HasColumnName("IMPRESION_DIAGNOSTICA");
+            entity.Property(e => e.PadecimientoActual)
+                .HasMaxLength(2000)
+                .IsUnicode(false)
+                .HasColumnName("PADECIMIENTO_ACTUAL");
+            entity.Property(e => e.PlanTratamiento)
+                .HasMaxLength(2000)
+                .IsUnicode(false)
+                .HasColumnName("PLAN_TRATAMIENTO");
 
             entity.HasOne(d => d.IdExpedienteNavigation).WithMany(p => p.Bitacoras)
                 .HasForeignKey(d => d.IdExpediente)
@@ -109,7 +122,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Canton>(entity =>
         {
-            entity.HasKey(e => e.IdCanton).HasName("PK__CANTON__69745474A0496A19");
+            entity.HasKey(e => e.IdCanton).HasName("PK__CANTON__69745474648D5B31");
 
             entity.ToTable("CANTON");
 
@@ -127,7 +140,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Citum>(entity =>
         {
-            entity.HasKey(e => e.IdCita).HasName("PK__CITA__6416F2F049B7B974");
+            entity.HasKey(e => e.IdCita).HasName("PK__CITA__6416F2F03D36C5D0");
 
             entity.ToTable("CITA");
 
@@ -157,7 +170,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Direccion>(entity =>
         {
-            entity.HasKey(e => e.IdDireccion).HasName("PK__DIRECCIO__FC7E9E8EC883B9E1");
+            entity.HasKey(e => e.IdDireccion).HasName("PK__DIRECCIO__FC7E9E8ED7950E99");
 
             entity.ToTable("DIRECCION");
 
@@ -180,10 +193,9 @@ public partial class ClinicaReumatologiaContext : DbContext
                 .HasConstraintName("FK_DIRECCION_PROVINCIA");
         });
 
-
         modelBuilder.Entity<Expediente>(entity =>
         {
-            entity.HasKey(e => e.IdExpediente).HasName("PK__EXPEDIEN__A99BAD8E3E425699");
+            entity.HasKey(e => e.IdExpediente).HasName("PK__EXPEDIEN__A99BAD8E31B022A9");
 
             entity.ToTable("EXPEDIENTE");
 
@@ -207,7 +219,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Ocupacion>(entity =>
         {
-            entity.HasKey(e => e.IdOcupacion).HasName("PK__OCUPACIO__0325EA4C8F33985C");
+            entity.HasKey(e => e.IdOcupacion).HasName("PK__OCUPACIO__0325EA4CED2AB08C");
 
             entity.ToTable("OCUPACION");
 
@@ -220,7 +232,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Paciente>(entity =>
         {
-            entity.HasKey(e => e.CedulaPaciente).HasName("PK__PACIENTE__FD8C4C6D08667E77");
+            entity.HasKey(e => e.CedulaPaciente).HasName("PK__PACIENTE__FD8C4C6D291D86F9");
 
             entity.ToTable("PACIENTE");
 
@@ -262,9 +274,29 @@ public partial class ClinicaReumatologiaContext : DbContext
                 .HasConstraintName("FK_PACIENTE_SEXO");
         });
 
+        modelBuilder.Entity<Pago>(entity =>
+        {
+            entity.HasKey(e => e.IdPago).HasName("PK__PAGO__B68D23DFC811C6BF");
+
+            entity.ToTable("PAGO");
+
+            entity.Property(e => e.IdPago).HasColumnName("ID_PAGO");
+            entity.Property(e => e.Detalle)
+                .HasMaxLength(2000)
+                .IsUnicode(false)
+                .HasColumnName("DETALLE");
+            entity.Property(e => e.IdUsuario).HasColumnName("ID_USUARIO");
+            entity.Property(e => e.TotalPagar).HasColumnName("TOTAL_PAGAR");
+
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Pagos)
+                .HasForeignKey(d => d.IdUsuario)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_PAGO_USUARIO");
+        });
+
         modelBuilder.Entity<Provincium>(entity =>
         {
-            entity.HasKey(e => e.IdProvincia).HasName("PK__PROVINCI__4245DC52EC49CE9A");
+            entity.HasKey(e => e.IdProvincia).HasName("PK__PROVINCI__4245DC5231996B1C");
 
             entity.ToTable("PROVINCIA");
 
@@ -277,7 +309,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Rol>(entity =>
         {
-            entity.HasKey(e => e.IdRol).HasName("PK__ROL__203B0F6802030733");
+            entity.HasKey(e => e.IdRol).HasName("PK__ROL__203B0F68518D8154");
 
             entity.ToTable("ROL");
 
@@ -290,7 +322,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Sexo>(entity =>
         {
-            entity.HasKey(e => e.IdSexo).HasName("PK__SEXO__F5FF4DDC2A2E79C8");
+            entity.HasKey(e => e.IdSexo).HasName("PK__SEXO__F5FF4DDCF328ECD6");
 
             entity.ToTable("SEXO");
 
@@ -303,7 +335,7 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__USUARIO__91136B90E5E638AE");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__USUARIO__91136B9001A473EB");
 
             entity.ToTable("USUARIO");
 
@@ -447,7 +479,6 @@ public partial class ClinicaReumatologiaContext : DbContext
 
         return Cantons.FromSqlRaw("exec SP_LISTAR_CANTON").ToList();
     }
-
 
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

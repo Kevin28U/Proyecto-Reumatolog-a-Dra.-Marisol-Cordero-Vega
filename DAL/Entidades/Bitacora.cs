@@ -9,11 +9,13 @@ public partial class Bitacora
 
     public int? IdExpediente { get; set; }
 
-    public string? Sintomatologia { get; set; }
+    public string? PadecimientoActual { get; set; }
 
-    public string? Evolucion { get; set; }
+    public string? ExamenFisico { get; set; }
 
-    public string? CambiosTratamiento { get; set; }
+    public string? ImpresionDiagnostica { get; set; }
+
+    public string? PlanTratamiento { get; set; }
 
     public virtual Expediente? IdExpedienteNavigation { get; set; }
 }

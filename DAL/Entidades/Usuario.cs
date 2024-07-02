@@ -26,4 +26,6 @@ public partial class Usuario
     public virtual ICollection<Citum> Cita { get; set; } = new List<Citum>();
 
     public virtual Rol? IdRolNavigation { get; set; }
+
+    public virtual ICollection<Pago> Pagos { get; set; } = new List<Pago>();
 }

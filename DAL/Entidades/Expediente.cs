@@ -11,7 +11,6 @@ public partial class Expediente
 
     public int? IdAntecedentes { get; set; }
 
-
     public virtual ICollection<Bitacora> Bitacoras { get; set; } = new List<Bitacora>();
 
     public virtual Paciente? CedulaPacienteNavigation { get; set; }
