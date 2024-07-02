@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,17 +85,17 @@
         }
       }
     },
-    "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
         "projectName": "Proyecto_Final_CentroMedico",
-        "projectPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
-        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\Proyecto_Final_CentroMedico.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\Desarrollo Proyecto del año\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\II CUATRIMESTRE 2024\\Progra Avanzada en Web\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\DAL\\DAL.csproj"
               }
             }
           }

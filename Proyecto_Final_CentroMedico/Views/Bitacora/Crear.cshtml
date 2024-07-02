@@ -1,27 +1,59 @@
-﻿@{
+﻿@model Proyecto_Final_CentroMedico.Bitacora
+@{
 }
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+<link href="~/css/style_usuario_crud.css" rel="stylesheet" />
+
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.js"></script>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-8">
-            <div class="mt-3 mb-3">
-                <h3 class="mb-3">Crear Bitácora</h3>
+            <div class="card border-primary mt-5 rounded-lg">
+                <div class="card-header" style="background-color: #0F4C5C;">
+                    Crear Bitácora
+                </div>
+                <form id="createForm" asp-action="Crear" method="post">
+                    <div asp-validation-summary="ModelOnly"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="IdExpediente" class="form-label">Expediente</label>
+                        <select asp-for="IdExpediente" class="form-control" asp-items="@ViewBag.IdExpediente"></select>
+                        <span asp-validation-for="IdExpediente" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Sintomatologia" class="form-label">Sintomatología</label>
+                        <input asp-for="Sintomatologia" class="form-control" />
+                        <span asp-validation-for="Sintomatologia" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Evolucion" class="form-label">Evolución</label>
+                        <input asp-for="Evolucion" class="form-control" />
+                        <span asp-validation-for="Evolucion" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="CambiosTratamiento" class="form-label">Cambios en el Tratamiento</label>
+                        <input asp-for="CambiosTratamiento" class="form-control" />
+                        <span asp-validation-for="CambiosTratamiento" class="text-danger"></span>
+                    </div>
+
+                    <br>
+                    <button type="submit" value="Crear" class="btn btn-editar btn-block">Agregar</button>
+                </form>
+                <div class="mt-3">
+                    <a asp-controller="Bitacora" asp-action="Index" class="btn btn-editar btn-block">Volver</a>
+                </div>
             </div>
-            <div class="u-form-group mb-3">
-                <label for="sintomatologia">Sintomatología del Paciente</label>
-                <textarea class="form-control" id="sintomatologia" rows="4"></textarea>
-            </div>
-            <div class="form-group mb-3">
-                <label for="evolucion">Evolución del Paciente</label>
-                <textarea class="form-control" id="evolucion" rows="4"></textarea>
-            </div>
-            <div class="form-group mb-3">
-                <label for="medicacion">Ajuste Medicación</label>
-                <textarea class="form-control" id="medicacion" rows="4"></textarea>
-            </div>
-           
         </div>
-
     </div>
-
+    <br>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 

@@ -16,4 +16,6 @@ public partial class Bitacora
     public string? CambiosTratamiento { get; set; }
 
     public virtual Expediente? IdExpedienteNavigation { get; set; }
+
+
 }

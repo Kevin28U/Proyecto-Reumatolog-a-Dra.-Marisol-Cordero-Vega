@@ -1,31 +1,37 @@
-﻿@{
-}
+﻿@model Proyecto_Final_CentroMedico.Bitacora
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+<link href="~/css/style_expedientes_crud.css" rel="stylesheet" />
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-8">
-            <div class="mt-3 mb-3">
-                <h3 class="mb-3">Editar Bitácora</h3>
+        <div class="col-lg-8 col-md-10">
+            <div class="card mt-5 rounded-lg">
+                <div class="card-header text-white text-center rounded-top" style="background-color: #0F4C5C;">
+                    <h3 class="mb-0">Editar Bitácora</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Editar">
+                        <div class="form-group">
+                            <label for="sintomatologia">Sintomatología</label>
+                            <input type="text" class="form-control" id="sintomatologia" asp-for="Sintomatologia" placeholder="Ingrese la sintomatología">
+                        </div>
+                        <div class="form-group">
+                            <label for="evolucion">Evolución</label>
+                            <input type="text" class="form-control" id="evolucion" asp-for="Evolucion" placeholder="Ingrese la evolución">
+                        </div>
+                        <div class="form-group">
+                            <label for="cambiosTratamiento">Cambios en Tratamiento</label>
+                            <input type="text" class="form-control" id="cambiosTratamiento" asp-for="CambiosTratamiento" placeholder="Ingrese los cambios en el tratamiento">
+                        </div>
+                        <input type="hidden" asp-for="IdBitacora" />
+                        <input type="hidden" asp-for="IdExpediente" />
+                        <button type="submit" class="btn btn-primary btn-block rounded-pill">Editar</button>
+                    </form>
+                </div>
             </div>
-            <div class="u-form-group mb-3">
-                <label for="sintomatologia">Sintomatología del Paciente</label>
-                <textarea class="form-control" id="sintomatologia" rows="4"></textarea>
-            </div>
-            <div class="form-group mb-3">
-                <label for="evolucion">Evolución del Paciente</label>
-                <textarea class="form-control" id="evolucion" rows="4"></textarea>
-            </div>
-            <div class="form-group mb-3">
-                <label for="medicacion">Ajuste Medicación</label>
-                <textarea class="form-control" id="medicacion" rows="4"></textarea>
-            </div>
-
         </div>
-
     </div>
-
+    <br></br>
 </div>
-
-
-
-

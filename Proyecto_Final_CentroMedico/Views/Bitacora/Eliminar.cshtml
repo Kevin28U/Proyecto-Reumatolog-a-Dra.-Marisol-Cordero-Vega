@@ -1,0 +1,32 @@
+﻿@model Proyecto_Final_CentroMedico.Bitacora
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="card border-primary mt-5 rounded-lg">
+                <div class="card-header">
+                    Eliminar Bitácora
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">¿Estás seguro de que quieres eliminar esta bitácora?</h5>
+                    <p class="card-text">Eliminar esta bitácora eliminará toda la información asociada.</p>
+                    <dl class="row">
+                        <dt class="col-sm-4">ID de Bitácora:</dt>
+                        <dd class="col-sm-8">@Model.IdBitacora</dd>
+                        <dt class="col-sm-4">Sintomatología:</dt>
+                        <dd class="col-sm-8">@Model.Sintomatologia</dd>
+                        <dt class="col-sm-4">Evolución:</dt>
+                        <dd class="col-sm-8">@Model.Evolucion</dd>
+                        <dt class="col-sm-4">Cambios en Tratamiento:</dt>
+                        <dd class="col-sm-8">@Model.CambiosTratamiento</dd>
+                    </dl>
+                    <form asp-action="Eliminar">
+                        <input type="hidden" asp-for="IdBitacora" />
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        <a href="~/Bitacora/Index" class="btn btn-primary">Cancelar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
