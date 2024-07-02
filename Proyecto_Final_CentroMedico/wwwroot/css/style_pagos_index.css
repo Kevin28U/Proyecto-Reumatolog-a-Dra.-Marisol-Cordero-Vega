@@ -1,0 +1,156 @@
+﻿body {
+    background: #f0f2f5 url('https://png.pngtree.com/background/20210717/original/pngtree-blue-hexagonal-medicine-background-picture-image_1428439.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.barra-lateral {
+    background-color: #262a34;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+}
+
+    .barra-lateral a {
+        color: #fff;
+        background-color: #262a34;
+    }
+
+    .barra-lateral .logo {
+        background-color: #0275db;
+    }
+
+        .barra-lateral .logo h2 {
+            font-size: 30px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+    .barra-lateral .menu a {
+        display: block;
+        padding: 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+        .barra-lateral .menu a:hover {
+            background: #35ae6b;
+        }
+
+        .barra-lateral .menu a svg {
+            margin-left: 10px;
+        }
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0B4750;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+.card-header {
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #1d8cf8; 
+    color: white; 
+    font-weight: bold;
+    font-size: 1.5rem; 
+    text-align: center; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+.btn-primary {
+    margin: 20px;
+    background-color: #0B4750;
+    /*background: linear-gradient(45deg, #1d8cf8, #3358f4);*/
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s ease-in-out;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+    .btn-primary:hover {
+        background-color: #3D838D;
+    }
+
+label {
+    font-weight: bold;
+}
+
+/*.table {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}*/
+
+.table {
+    display: grid;
+    place-items: center;
+    width: 25%;
+    color: #E5F3F0; 
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+    .table td a{
+        color: #0B4750;
+    }
+
+.btn-editar {
+    background: #0F4C5C;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
+    .btn-editar:hover {
+        background: #072B3C;
+        color: white;
+    }
+
+
+.btn-eliminar {
+    background: #12C1DB;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+
+    .btn-eliminar:hover {
+        background: #0F93AB;
+        color: white;
+    }

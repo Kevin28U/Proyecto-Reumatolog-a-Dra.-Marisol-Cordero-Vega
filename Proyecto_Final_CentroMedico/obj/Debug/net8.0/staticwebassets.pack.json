@@ -53,6 +53,14 @@
       "PackagePath": "staticwebassets\\css\\style_expedientes_index.css"
     },
     {
+      "Id": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_pagos_crud.css",
+      "PackagePath": "staticwebassets\\css\\style_pagos_crud.css"
+    },
+    {
+      "Id": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_pagos_index.css",
+      "PackagePath": "staticwebassets\\css\\style_pagos_index.css"
+    },
+    {
       "Id": "C:\\Users\\fabia\\Documents\\GitHub\\Proyecto-Reumatolog-a-Dra.-Marisol-Cordero-Vega\\Proyecto_Final_CentroMedico\\wwwroot\\css\\style_rol_crud.css",
       "PackagePath": "staticwebassets\\css\\style_rol_crud.css"
     },
