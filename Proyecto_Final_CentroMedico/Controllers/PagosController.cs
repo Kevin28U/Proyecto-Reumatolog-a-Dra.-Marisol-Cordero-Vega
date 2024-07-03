@@ -53,8 +53,6 @@ namespace Proyecto_Final_CentroMedico.Controllers
         }
 
         // POST: Pagos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Crear([Bind("IdPago,IdUsuario,TotalPagar,Detalle")] Pago pago)
@@ -87,8 +85,6 @@ namespace Proyecto_Final_CentroMedico.Controllers
         }
 
         // POST: Pagos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Editar(int id, [Bind("IdPago,IdUsuario,TotalPagar,Detalle")] Pago pago)
@@ -155,32 +151,29 @@ namespace Proyecto_Final_CentroMedico.Controllers
             }
 
             return Json(new { success = false });
-
-            //await _context.SaveChangesAsync();
-            //return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Buscar(string idBuscar)
+        // POST: Pagos/Buscar
+        [HttpPost]
+        public async Task<IActionResult> Buscar(int? idBuscar)
         {
-
-            ViewBag.datosEncontrados = false;
-
-            var pagos = await _context.Pagos.FirstOrDefaultAsync(e => e.IdPago.Equals(idBuscar));
-
-            if (pagos != null)
+            if (idBuscar == null)
             {
-                var VMPagos = new PagosViewModel(
-                    pagos.IdPago,
-                    pagos.IdUsuarioNavigation.IdUsuario,
-                    pagos.TotalPagar,
-                    pagos.Detalle
-                );
-
-                ViewBag.datosEncontrados = true;
-
-                return View("Buscar", VMPagos);
+                return View("Index", await _context.Pagos.Include(p => p.IdUsuarioNavigation).ToListAsync());
             }
-            return View("Buscar");
+
+            var pagos = await _context.Pagos
+                .Include(p => p.IdUsuarioNavigation)
+                .Where(p => p.IdPago == idBuscar)
+                .ToListAsync();
+
+            if (pagos.Any())
+            {
+                return View("Index", pagos);
+            }
+
+            ViewBag.Message = "No se encontraron resultados";
+            return View("Index", await _context.Pagos.Include(p => p.IdUsuarioNavigation).ToListAsync());
         }
 
         private bool PagoExists(int id)
@@ -189,3 +182,4 @@ namespace Proyecto_Final_CentroMedico.Controllers
         }
     }
 }
+

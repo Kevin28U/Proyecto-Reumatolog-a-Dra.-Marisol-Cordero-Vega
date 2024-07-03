@@ -1,53 +1,4 @@
-﻿@* @model IEnumerable<Proyecto_Final_CentroMedico.Pago>
-
-@{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalPagar)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Detalle)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalPagar)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Detalle)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdUsuarioNavigation.IdUsuario)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPago">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPago">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPago">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table> *@
-
-@model IEnumerable<Proyecto_Final_CentroMedico.Pago>
+﻿@model IEnumerable<Proyecto_Final_CentroMedico.Pago>
 
 @{
     ViewData["Title"] = "Index";
@@ -60,7 +11,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <aside class="barra-lateral col-auto p-0">
+       @*  <aside class="barra-lateral col-auto p-0">
             <div class="logo my-3">
                 <h2 class="py-4 m-0">Gestion de Pagos</h2>
             </div>
@@ -78,7 +29,7 @@
                     Buscar Pago
                 </a>
             </nav>
-        </aside>
+        </aside> *@
         <main class="main col">
             <div class="container-fluid">
                 <!-- Page Heading -->
@@ -88,18 +39,19 @@
                 <p>
                     <a class="btn btn-editar btn-crear-rol" asp-controller="Pagos" asp-action="Crear">Agregar un nuevo pago</a>
                 </p>
+
+                <!-- Formulario de búsqueda -->
+                <form asp-action="Buscar" method="post" class="form-inline mb-4">
+                    <div class="form-group mr-2">
+                        <input type="number" name="idBuscar" class="form-control" placeholder="ID del Pago" />
+                    </div>
+                    <button type="submit" class="btn btn-editar btn-crear-rol">Buscar</button>
+                    <a class="btn btn-editar btn-crear-rol" asp-controller="Pagos" asp-action="Index">Ver lista completa</a>
+                </form>
+
                 <table class="table">
                     <thead>
                         <tr>
-                            @* <th>
-                                @Html.DisplayNameFor(model => model.TotalPagar)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.Detalle)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
-                            </th> *@
                             <th scope="col">Usuario</th>
                             <th scope="col">Total a Pagar</th>
                             <th scope="col">Detalle</th>
@@ -111,12 +63,12 @@
                         {
                             <tr>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.IdUsuarioNavigation.IdUsuario)                                   
+                                    @Html.DisplayFor(modelItem => item.IdUsuarioNavigation.IdUsuario)
                                 </td>
                                 <td>
                                     @Html.DisplayFor(modelItem => item.TotalPagar)
                                 </td>
-                                <td>                                   
+                                <td>
                                     @Html.DisplayFor(modelItem => item.Detalle)
                                 </td>
                                 <td>
@@ -131,3 +83,4 @@
         </main>
     </div>
 </div>
+
