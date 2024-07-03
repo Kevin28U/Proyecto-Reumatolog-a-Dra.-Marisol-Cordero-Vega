@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DAL.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -157,6 +158,29 @@ namespace Proyecto_Final_CentroMedico.Controllers
 
             //await _context.SaveChangesAsync();
             //return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Buscar(string idBuscar)
+        {
+
+            ViewBag.datosEncontrados = false;
+
+            var pagos = await _context.Pagos.FirstOrDefaultAsync(e => e.IdPago.Equals(idBuscar));
+
+            if (pagos != null)
+            {
+                var VMPagos = new PagosViewModel(
+                    pagos.IdPago,
+                    pagos.IdUsuarioNavigation.IdUsuario,
+                    pagos.TotalPagar,
+                    pagos.Detalle
+                );
+
+                ViewBag.datosEncontrados = true;
+
+                return View("Buscar", VMPagos);
+            }
+            return View("Buscar");
         }
 
         private bool PagoExists(int id)
